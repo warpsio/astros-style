@@ -1,0 +1,37 @@
+{
+	"name": "astros-style",
+	"version": "0.0.1",
+	"description": "Style for astros theme",
+	"homepage": "https://github.com/warpsio/astros-style",
+	"bugs": {
+		"url": "https://github.com/warpsio/astros-style/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/warpsio/astros-style"
+	},
+	"files": [
+		"src/index.js",
+		"src/AstrosStyle.astro",
+		"src/style"
+	],
+	"exports": "./src/index.js",
+	"keywords": [
+		"astro-component",
+		"astro"
+	],
+	"author": "Giulio Zanchetta",
+	"license": "MIT",
+	"scripts": {
+		"dev": "astro dev",
+		"preview": "astro preview",
+		"format": "yarn prettier -w ./src",
+		"release": "standard-version"
+	},
+	"devDependencies": {
+		"astro": "^0.21.4",
+		"prettier": "^2.4.1",
+		"prettier-plugin-astro": "^0.0.9",
+		"standard-version": "^9.3.2"
+	}
+}
